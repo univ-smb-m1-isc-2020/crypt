@@ -1,6 +1,6 @@
 FROM openjdk:11-jre-slim
 
-COPY ./target/crypt-1.0-SNAPSHOT.jar .
+COPY ./target/crypt-0.0.1-SNAPSHOT.jar .
 
 EXPOSE 8080
 
