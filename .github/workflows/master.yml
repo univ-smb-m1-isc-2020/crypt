@@ -32,6 +32,6 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: docker.pkg.github.com
-          repository: univ-smb-m1-isc-2020/crypt/crypt
+          repository: univ-smb-m1-isc-2020/crypt
 
           tag_with_ref: true
